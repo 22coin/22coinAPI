@@ -6,7 +6,7 @@
 请求：http://22coin.com/api/getConfiguration.html
 示例：
 http://22coin.com/api/getConfiguration.html
-# Response
+### Response
 {
     "BTC": [
         {
@@ -39,9 +39,9 @@ priceScale：价格小数位数
 描述：获取22coin最新市场行情数据
 请求：http://22coin.com/api/getQuotation.html
 示例：
-# Request
+### Request
 GET http://22coin.com/api/getQuotation.html?market=btc_eth
-# Response
+### Response
 {
     "high": 0.00028,
     "low": 0.00026,
@@ -68,9 +68,9 @@ Market字段为:  法币_交易币 eg:BTC_DOGE
 描述：获取市场深度
 请求：http://22coin.com/Api/Depth.html
 示例：
-# Request
+### Request
 GET http://www.22coin.com/Api/Depth.html?market=eth_btc&level=20
-# Response
+### Response
 {
    "sells": [
         {
@@ -103,9 +103,9 @@ level 市场深度判断 档位深度
 描述：历史成交
 请求：http://www.22coin.com/Api/Trades.html
 示例：
-# Request
+### Request
 GET http://www.22coin.com/Api/Trades.html?market=doge_btc&level=20
-# Response
+### Response
 [
     "trades": [
         {
@@ -134,9 +134,9 @@ Level:根据档位选择返回5条或20条数据
 描述：历史成交
 请求：http://www.22coin.com/Api/Kline.html
 示例：
-# Request
+### Request
 http://www.22coin.com/Api/Kline.html?market=doge_btc&step=3600
-# Response
+### Response
 {
     "data": [
         [
