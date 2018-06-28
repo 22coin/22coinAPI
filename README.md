@@ -87,11 +87,11 @@ Market字段为:  法币_交易币 eg:BTC_DOGE
 >id : 返回数据id<br>
 >price: 深度价格<br>
 >amount: 深度数量<br>
-参数描述:
-market:	是币种类型的名称，如：BTC，DOGE，LTC，KNC，ETH，USDT
-法币类型如：BTC，ETH，USDT
-Market字段为:  法币_交易币 eg:BTC_DOGE
-level 市场深度判断 档位深度
+>参数描述:
+>market:	是币种类型的名称，如：BTC，DOGE，LTC，KNC，ETH，USDT
+>法币类型如：BTC，ETH，USDT
+>Market字段为:  法币_交易币 eg:BTC_DOGE
+>level 市场深度判断 档位深度
 
 ## 4.历史成交
 描述：历史成交<br>
