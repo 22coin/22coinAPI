@@ -5,34 +5,34 @@
 请求：http://22coin.com/api/getConfiguration.html<br>
 示例：
 http://22coin.com/api/getConfiguration.html<br>
-### Response
-{
-    "BTC": [
-        {
-            "DOGE": {
-                "priceScale": 8,
-                "amountScale": 4
-            }
-        },
-        {
-            "LTC": {
-                "priceScale": 8,
-                "amountScale": 4
-            }
-        },
-   }
-返回值说明:
-    "法币名称": [
-        {
-            "交易币名称": {
-                "价格小数位数": 8,
-                "价格小数位数": 4
-            }
-        }
-    ],
-amountScale:数量小数位数
-priceScale：价格小数位数
-参数描述:获取到22coin中所有币种的数量的最小位数和价格的最小位数
+>### Response
+>{
+>   "BTC": [
+>        {
+>            "DOGE": {
+>                "priceScale": 8,
+>                "amountScale": 4
+>            }
+>        },
+>        {
+>            "LTC": {
+>                "priceScale": 8,
+>                "amountScale": 4
+>            }
+>        },
+>   }
+>返回值说明:
+>    "法币名称": [
+>        {
+>            "交易币名称": {
+>                "价格小数位数": 8,
+>                "价格小数位数": 4
+>            }
+>        }
+>    ],
+amountScale:数量小数位数<br>
+priceScale：价格小数位数<br>
+参数描述:获取到22coin中所有币种的数量的最小位数和价格的最小位数<br>
 
 ## 2.行情
 描述：获取22coin最新市场行情数据
