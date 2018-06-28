@@ -2,7 +2,7 @@
 
 ## 1.获取市场配置数据
 描述：获取已开启的市场信息，包括价格、数量小数点位数<br>
-请求：http://22coin.com/api/getConfiguration.html<br>
+请求：/api/getConfiguration.html<br>
 示例：
 http://22coin.com/api/getConfiguration.html<br>
 >### Response
@@ -36,7 +36,7 @@ priceScale：价格小数位数<br>
 
 ## 2.行情
 描述：获取22coin最新市场行情数据<br>
-请求：http://22coin.com/api/getQuotation.html<br>
+请求：/api/getQuotation.html<br>
 示例：GET http://22coin.com/api/getQuotation.html?market=btc_eth<br>
 >### Response
 >{   "high": 0.00028,
@@ -62,7 +62,7 @@ market:	是币种类型的名称，例如：BTC，DOGE，LTC，KNC，ETH，USDT
 Market字段为:  法币_交易币 eg:BTC_DOGE
 ## 3.市场深度
 描述：获取市场深度<br>
-请求：http://22coin.com/Api/Depth.html<br>
+请求：/Api/Depth.html<br>
 示例：GET http://www.22coin.com/Api/Depth.html?market=eth_btc&level=20<br>
 >### Response
 >{
@@ -95,7 +95,7 @@ Market字段为:  法币_交易币 eg:BTC_DOGE
 
 ## 4.历史成交
 描述：历史成交<br>
-请求：http://www.22coin.com/Api/Trades.html<br>
+请求：/Api/Trades.html<br>
 示例：GET http://www.22coin.com/Api/Trades.html?market=doge_btc&level=20<br>
 >### Response
 >[
@@ -124,7 +124,7 @@ Level:根据档位选择返回5条或20条数据
 
 ## 5.K线
 描述：历史成交<br>
-请求：http://www.22coin.com/Api/Kline.html<br>
+请求：/Api/Kline.html<br>
 示例：http://www.22coin.com/Api/Kline.html?market=doge_btc&step=3600<br>
 >### Response
 >{
@@ -159,7 +159,7 @@ step:获取数据的类型步进，如step=60获取以1分钟为单位的数据s
 
 ## 6.获取交易所交易对行情数据(非小号)
 描述：历史成交<br>
-请求：http://www.22coin.com/api/getAllQuotation.html<br>
+请求：/api/getAllQuotation.html<br>
 示例：http://www.22coin.com/api/getAllQuotation.html<br>
 >### Response
 >{ 
