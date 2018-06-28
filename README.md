@@ -1,7 +1,7 @@
 # 22coinAPI
 
 
-1.获取市场配置数据
+##1.获取市场配置数据
 描述：获取已开启的市场信息，包括价格、数量小数点位数
 请求：http://22coin.com/api/getConfiguration.html
 示例：
@@ -35,7 +35,7 @@ amountScale:数量小数位数
 priceScale：价格小数位数
 参数描述:获取到22coin中所有币种的数量的最小位数和价格的最小位数
 
-2.行情
+##2.行情
 描述：获取22coin最新市场行情数据
 请求：http://22coin.com/api/getQuotation.html
 示例：
@@ -64,7 +64,7 @@ Date: 调用时间戳
 market:	是币种类型的名称，当前系统拥有的币种类型为：BTC，DOGE，LTC，KNC，ETH，USDT
 法币类型有：BTC，ETH，USDT
 Market字段为:  法币_交易币 eg:BTC_DOGE
-3.市场深度
+##3.市场深度
 描述：获取市场深度
 请求：http://22coin.com/Api/Depth.html
 示例：
@@ -99,7 +99,7 @@ market:	是币种类型的名称，如：BTC，DOGE，LTC，KNC，ETH，USDT
 Market字段为:  法币_交易币 eg:BTC_DOGE
 level 市场深度判断 档位深度
 
-4.历史成交
+##4.历史成交
 描述：历史成交
 请求：http://www.22coin.com/Api/Trades.html
 示例：
@@ -130,7 +130,7 @@ market:	是币种类型的名称，如：BTC，DOGE，LTC，KNC，ETH，USDT
 Market字段为:  法币_交易币 eg:BTC_DOGE
 Level:根据档位选择返回5条或20条数据
 
-5.K线
+##5.K线
 描述：历史成交
 请求：http://www.22coin.com/Api/Kline.html
 示例：
@@ -167,7 +167,7 @@ market:	是币种类型的名称，例如：BTC，DOGE，LTC，KNC，ETH，USDT
 Market字段为:  法币_交易币 eg:BTC_DOGE
 step:获取数据的类型步进，如step=60获取以1分钟为单位的数据step=3600获取以1小时为单位数据。
 
-6.获取交易所交易对行情数据(非小号)
+##6.获取交易所交易对行情数据(非小号)
 Get /api/v1/allticker 获取所有交易对行情 
 URL https://接口域名/api/v1/ticker.do
 示例
