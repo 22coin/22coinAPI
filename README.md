@@ -159,8 +159,8 @@ step:获取数据的类型步进，如step=60获取以1分钟为单位的数据s
 
 ## 6.获取交易所交易对行情数据(非小号)
 描述：历史成交<br>
-请求：http://www.22coin.com/api/v1/allticker.html<br>
-示例：http://www.22coin.com/api/v1/allticker.html<br>
+请求：http://www.22coin.com/api/getAllQuotation.html<br>
+示例：http://www.22coin.com/api/getAllQuotation.html<br>
 >### Response
 >{ 
 >"date":"1410431279", 
