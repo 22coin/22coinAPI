@@ -1,10 +1,10 @@
 # 22coinAPI
 
 ## 1.获取市场配置数据
-描述：获取已开启的市场信息，包括价格、数量小数点位数
-请求：http://22coin.com/api/getConfiguration.html
+描述：获取已开启的市场信息，包括价格、数量小数点位数<br>
+请求：http://22coin.com/api/getConfiguration.html<br>
 示例：
-http://22coin.com/api/getConfiguration.html
+http://22coin.com/api/getConfiguration.html<br>
 ### Response
 {
     "BTC": [
