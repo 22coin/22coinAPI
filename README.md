@@ -123,7 +123,7 @@ Market字段为:  法币_交易币 eg:BTC_DOGE
 Level:根据档位选择返回5条或20条数据
 
 ## 5.K线
-描述：历史成交<br>
+描述：K线图数据<br>
 请求：/Api/Kline.html<br>
 示例：http://www.22coin.com/Api/Kline.html?market=doge_btc&step=3600<br>
 >### Response
