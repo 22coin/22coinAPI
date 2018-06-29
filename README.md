@@ -191,3 +191,25 @@ step:获取数据的类型步进，如step=60获取以1分钟为单位的数据s
 >low: 最低价 <br>
 >sell: 卖一价 <br>
 >vol: 成交量(最近的24小时)<br>
+
+## 7.获取交易所交易对行情数据(CoinMarketCap)
+描述：历史成交<br>
+请求：/Api/returnTicker.html<br>
+示例：http://22coin.com/Api/returnTicker.html<br>
+>### Response
+>{ 
+>"BTC_LTC":>{"id":1,"last":2.033,"lowestAsk":2.033,"highestBid":2.033,"percentChange":0,"baseVolume":0,"quoteVolume":0,"isFrozen":"0","high24hr":0,>>"low24hr":0}
+>} 
+>返回值说明:<br>
+>BTC_LTC: 交易对名称<br>
+>id: 交易对id <br>
+>lowestAsk: 最底卖单<br>
+>highestBid: 最高买单 <br>
+>percentChange: 24小时 涨跌幅<br>
+>baseVolume: 基础成交量<br>
+>quoteVolume: 24小时成交量<br>
+>isFrozen: 是否冻结<br>
+>high24hr:24小时最高价<br>
+>low24hr:24小时最低价<br>
+
+
