@@ -199,7 +199,7 @@ step:获取数据的类型步进，如step=60获取以1分钟为单位的数据s
 >### Response
 >{ 
 >"BTC_LTC":>{"id":1,"last":2.033,"lowestAsk":2.033,"highestBid":2.033,"percentChange":0,"baseVolume":0,"quoteVolume":0,"isFrozen":"0","high24hr":0,>>"low24hr":0}
->} 
+>}<br>
 >返回值说明:<br>
 >BTC_LTC: 交易对名称<br>
 >id: 交易对id <br>
