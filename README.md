@@ -157,7 +157,7 @@ market:	是币种类型的名称，例如：BTC，DOGE，LTC，KNC，ETH，USDT
 Market字段为:  法币_交易币 eg:BTC_DOGE
 step:获取数据的类型步进，如step=60获取以1分钟为单位的数据step=3600获取以1小时为单位数据。
 
-## 6.获取交易所交易对行情数据(非小号)
+## 6.获取交易所交易对行情数据
 描述：历史成交<br>
 请求：/api/getAllQuotation.html<br>
 示例：http://www.22coin.com/api/getAllQuotation.html<br>
@@ -192,7 +192,7 @@ step:获取数据的类型步进，如step=60获取以1分钟为单位的数据s
 >sell: 卖一价 <br>
 >vol: 成交量(最近的24小时)<br>
 
-## 7.获取交易所交易对行情数据(CoinMarketCap)
+## 7.获取交易所交易对行情数据
 描述：历史成交<br>
 请求：/Api/returnTicker.html<br>
 示例：http://22coin.com/Api/returnTicker.html<br>
